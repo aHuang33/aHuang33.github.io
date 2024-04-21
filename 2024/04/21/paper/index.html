@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+    <head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport" />
+  <meta name="robots" content="index, follow">
+  <!-- title -->
+  
+    
+  <title>paper - Hexo</title>
+    
+  
+  
+  <!-- open graph -->
+  <meta name="description" content="cpc自回归 概率对比损失函数 高维-&gt;隐藏层embedding-à预测àNCE loss InfoNCE越小表示与输入的互信息越大 time2vec正弦函数表示时序周期性 similaritypreserving representation learning （SPIRAL）时序聚类 矩阵表示时序的相似性矩阵分解 T loss空洞卷积 tri-loss 正样本：子序列 负样本：随机采样N">
+<meta property="og:type" content="article">
+<meta property="og:title" content="paper">
+<meta property="og:url" content="http://example.com/2024/04/21/paper/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="cpc自回归 概率对比损失函数 高维-&gt;隐藏层embedding-à预测àNCE loss InfoNCE越小表示与输入的互信息越大 time2vec正弦函数表示时序周期性 similaritypreserving representation learning （SPIRAL）时序聚类 矩阵表示时序的相似性矩阵分解 T loss空洞卷积 tri-loss 正样本：子序列 负样本：随机采样N">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2024-04-21T11:31:58.000Z">
+<meta property="article:modified_time" content="2024-04-21T11:54:04.720Z">
+<meta property="article:author" content="John Doe">
+<meta name="twitter:card" content="summary">
+  <!-- canonical -->
+  
+  <link rel="canonical" href="http://example.com/2024/04/21/paper/">
+  
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="/img/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+  <!-- CSS -->
+  
+<link rel="stylesheet" href="/css/reset.css">
+
+  
+<link rel="stylesheet" href="/css/style.css">
+
+  
+<link rel="stylesheet" href="/css/markdown.css">
+
+  
+<link rel="stylesheet" href="/css/fonts.css">
+
+<meta name="generator" content="Hexo 7.2.0"></head>
+
+    <body>
+        <div class="paper">
+            <div class="paper-main">
+                
+                    <div class="post-header">
+    <a class="logo" href="/">Hexo</a>
+    <!-- <div class="logo"><a href="/" title="Len"><img src="/img/logo.svg" alt="Len" aria-label="logo" height="20"></a></div> -->
+        <ul class="nav">
+            
+            <li><a href="/">Home</a></li>
+            
+            <li><a href="/about">About</a></li>
+            
+            <li><a href="/archives">Archives</a></li>
+            
+        </ul>
+
+
+    </a>
+</div>
+
+                
+                <div class="post-main">
+    
+        <div class="post-main-title">
+            paper
+        </div>
+        <div class="post-meta">
+            2024-04-21 ｜ 
+            
+        </div>
+        <!-- 圆角分类 -->
+        <!-- <div class="tags"> -->
+            <!--  -->
+        <!-- </div> -->
+        <div class="post-md">
+            <h1 id="cpc"><a href="#cpc" class="headerlink" title="cpc"></a>cpc</h1><p>自回归</p>
+<p>概率对比损失函数</p>
+<p>高维-&gt;隐藏层embedding-à预测àNCE loss</p>
+<p>InfoNCE越小表示与输入的互信息越大</p>
+<h1 id="time2vec"><a href="#time2vec" class="headerlink" title="time2vec"></a>time2vec</h1><p>正弦函数表示时序周期性</p>
+<h1 id="similaritypreserving-representation-learning-（SPIRAL）"><a href="#similaritypreserving-representation-learning-（SPIRAL）" class="headerlink" title="similaritypreserving representation learning （SPIRAL）"></a>similaritypreserving representation learning （SPIRAL）</h1><p>时序聚类</p>
+<p>矩阵表示时序的相似性矩阵分解</p>
+<h1 id="T-loss"><a href="#T-loss" class="headerlink" title="T loss"></a>T loss</h1><p>空洞卷积 tri-loss</p>
+<p>正样本：子序列</p>
+<p>负样本：随机采样N个，长度一致</p>
+<p>训练时样本长度随机选，无编码器。所以scalable</p>
+<p>编码器：resnet+casual cnn+max<br>pooling+linear transformer</p>
+<p>分类：svm分类器</p>
+<h1 id="时间卷积TCN"><a href="#时间卷积TCN" class="headerlink" title="时间卷积TCN"></a>时间卷积TCN</h1><p>卷积casual 任意长度序列-&gt;相同长度</p>
+<p>扩展接受域（感受野）</p>
+
+        </div>
+    
+<!-- tags -->
+
+</div>
+                <div class="footer">
+    <span>Copyright © 2023 Hexo</span>
+    <span>Powered by <a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a> with <a target="_blank" rel="noopener" href="https:///imzl.com/zenmind">ZenMind</a></span>
+</div>
+
+<link rel="stylesheet" href="/css/a11y-dark.min.css">
+
+
+<script src="/js/highlight.min.js"></script>
+
+
+<script src="/js/highlightjs-line-numbers.js"></script>
+
+<script>
+    hljs.initHighlightingOnLoad();
+    hljs.initLineNumbersOnLoad();
+</script>
+
+            </div>
+        </div>
+    </body>
+</html>
